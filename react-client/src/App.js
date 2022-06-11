@@ -8,6 +8,7 @@ import SockJS from 'sockjs-client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import DashBoard from './pages/DashBoard/DashBoard';
 import Analytics from './pages/Analytics/Analytics';
+import Messaging from './pages/Messaging/Messaging';
 
 const App = () => {
   const {userState, connection : { connect }} = useContext(ChatContext);
@@ -31,6 +32,7 @@ const App = () => {
         <Routes>
           <Route path="/dashboard" element={ <DashBoard/>}/>
           <Route path="/analytics" element={ <Analytics/>}/>
+          <Route path="/messaging" element={ <Messaging/>}/>
         </Routes>
       </Router>
 

@@ -12,7 +12,6 @@ export default function Layout(props) {
   }
   let homeStyle = isDarkMode ? 'theme dark ': ''
   homeStyle +=  ! isOpen ? 'close ' : ''
-  console.log(homeStyle)
   return (
     <>
         <Sidebar isOpen={isOpen} openHandler={handleSideBarOpen} />

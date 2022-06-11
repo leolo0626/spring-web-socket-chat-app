@@ -20,9 +20,9 @@ export default function Sidebar({isOpen, openHandler}) {
             'itemLink' : ''
         },
         {
-            'itemName' : 'Notifications',
+            'itemName' : 'Messaging',
             'itemIcon' : 'bx bx-bell icon',
-            'itemLink' : ''
+            'itemLink' : '/messaging'
         },
         {
             'itemName' : 'Analytics',
